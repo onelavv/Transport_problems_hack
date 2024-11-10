@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 class="main_header">PDD detection service</h1>
+    <div class="main_wrapper">
+        <img class="main_frame" src="{{ url_for('video_feed') }}">
+        <div class="main_set">
+            <form action="" method="post">
+            <p class="camera_form">
+                <label for="source">Введите источник изображения</label>
+                <input class="source_form" type="text" name="source">
+            </p>
+            <p>
+                <input class="btn" type="submit" value="Сохранить">
+            </p>
+            <p>
+                <input class="radio_ns" type="radio" name="options" id="option1" value="1"> Включен </input><br>
+                <input class="radio_ns" type="radio" name="options" id="option2" value="0"> Выключен </input><br>
+            </p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

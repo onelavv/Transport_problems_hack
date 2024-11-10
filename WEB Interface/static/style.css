@@ -1,0 +1,70 @@
+body{
+    font-family: BebasNeuePro, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: url("default.jpg") no-repeat;
+    background-size: 100% auto;
+    color: white;
+    -webkit-text-stroke: 1px #000; /* Толщина и цвет обводки */
+    text-stroke: 1px #000; /* Толщина и цвет обводки (стандартное свойство) */
+}
+
+.main_header{
+    font-size: 18pt;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-transform: uppercase;
+    color: inherit;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+.main_frame{
+    border-radius: 6px;
+    margin: 0 20px;
+    min-height: 120px;
+    width: 60%;
+}
+
+.main_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main_set{
+    width:40%;
+    font-size: 14pt;
+}
+
+input{
+    font-size: 14pt;
+}
+
+.btn{
+    background: transparent;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    color: black;
+}
+
+input[type="submit"].btn:hover {
+  border: 3px solid black;
+  background-color: aquamarine;
+  color: gray;
+}
+
+.camera_form{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.source_form{
+    border-radius: 6px;
+}
+
+.radio_ns{
+    margin-left: 50px;
+    margin-down: 10px;
+}
